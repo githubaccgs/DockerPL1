@@ -9,6 +9,7 @@ pipeline {
         stage('Build') { 
             steps {
                 echo "hello from build"
+                ./testscript.sh
             }
         }
     }
