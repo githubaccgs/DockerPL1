@@ -7,7 +7,7 @@ pipeline {
         ant 'Default'
         // inside tools
         echo "ant"
-          }
+    }
       environment {
         CI = 'true'
     }
